@@ -103,7 +103,7 @@
         "max_error": 0.005,
         "min_clearance": 0.19999999999999998,
         "min_copper_edge_clearance": 0.0,
-        "min_hole_clearance": 0.0,
+        "min_hole_clearance": 0.19999999999999998,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
@@ -115,7 +115,9 @@
         "use_height_for_length_calcs": true
       },
       "track_widths": [
-        0.0
+        0.0,
+        0.25,
+        0.5
       ],
       "via_dimensions": [
         {
@@ -403,6 +405,7 @@
         "name": "PWR",
         "nets": [
           "GND",
+          "GNDS",
           "Net-(F1-Pad1)",
           "Net-(J4-Pad2)",
           "VBAT",
