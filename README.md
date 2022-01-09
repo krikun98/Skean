@@ -14,6 +14,7 @@ The Skean is a fully wireless split built with E73 nRF52833 modules. It's got si
 * ZMK support (currently via a config repo)
 * Fuses and ESD protection
 * MX or Alps compatibility
+* Meant for 233350 310 mAh batteries
 * Math-generated silkscreens on some case/plate versions
 * 6 column version also available for 100x150 PCB promos
 
