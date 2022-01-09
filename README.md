@@ -1,6 +1,6 @@
 # Skean
 
-[![Skean 0.1](pictures/first_proto.jpg)]
+![Skean 0.1](pictures/first_proto.jpg)
 
 The Skean is a 44-key split keyboard inspired by the [Jian](https://github.com/KGOH/Jian-Info) (stagger, pinky and controller footprint) and the 
 [Corne](https://github.com/foostan/crkbd) (thumb cluster).
