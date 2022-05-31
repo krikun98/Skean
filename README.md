@@ -27,7 +27,7 @@ More images are also in Actions builds.
 
 ### Firmware
 
-The [bootloader](../../releases/latext/download/bootloader.hex) is available in the Releases tab.
+The [bootloader](../../releases/latest/download/bootloader.hex) is available in the Releases tab.
 Please refer to the [nrfmicro wiki](https://github.com/joric/nrfmicro/wiki/bootloader) for the flashing instructions.
 It's the same as the nrfmicro_833 bootloader with a modified USB device name.
 
