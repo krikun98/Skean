@@ -33,7 +33,7 @@ do
 		fi
 		short_option="$(basename "$option")"
 		file="$(find $option -type f -name '*.kicad_pcb')"
-		${container_cmd} fab jlcpcb --no-assembly "$file" gerbers/"$name"_"$short_option" --no-drc
+		${container_cmd} kikit fab jlcpcb --no-assembly "$file" gerbers/"$name"_"$short_option" --no-drc
 		mv gerbers/"$name"_"$short_option"/gerbers.zip gerbers/"$prefix"/"$name"_"$short_option"_gerbers.zip
 		rm -r gerbers/"$name"_"$short_option"
 	done
