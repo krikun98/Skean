@@ -27,11 +27,14 @@ More images are also in Actions builds.
 
 ### Firmware
 
-The [bootloader](../../releases/latest/download/bootloader.hex) is available in the Releases tab.
+The [bootloader](../../releases/firmware/download/bootloader_new.hex) is available in the Releases tab.
 Please refer to the [nrfmicro wiki](https://github.com/joric/nrfmicro/wiki/bootloader) for the flashing instructions.
 It's the same as the nrfmicro_833 bootloader with a modified USB device name.
 
-[Default firmware](../../releases/latest/download/firmware.zip) files are also there, and you can use the [Skean](https://github.com/krikun98/zmk-config/tree/skean) `zmk-config` branch for customisation.
+[Default firmware](../../releases/firmware/download/firmware_new.zip) files are also there, and you can use the [Skean](https://github.com/krikun98/zmk-config/tree/skean) `zmk-config` branch for customisation.
+
+**IMPORTANT NOTE**: if your Skean was flashed with the bootloader from the 0.2 release, you need to flash the [update UF2](../../releases/firmware/download/bootloader_update.uf2) to use the latest ZMK version. 
+More info is available in the [Releases](https://github.com/krikun98/Skean/releases/tag/firmware) tab.   
 
 ### BOM/Build instructions
 
