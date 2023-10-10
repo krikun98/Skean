@@ -48,7 +48,42 @@ Check the Actions tab or releases for files not linked here.
 
 ## Links
 
-### Version 0.2
+### Version 0.3
+
+#### MX hotswap
+
+Full 7-column MX hotswap PCB
+
+[IBOM](https://htmlpreview.github.io/?https://github.com/krikun98/skean/blob/main/pcb/pinky_hotswap/bom/ibom.html)
+
+[gerbers](../../releases/latest/download/pcb_pinky_hotswap_gerbers.zip)
+
+front|back
+--|--
+![front](../../releases/latest/download/pcb_pinky_hotswap.png)|![back](../../releases/latest/download/pcb_pinky_hotswap_back.png)
+
+
+6-column MX hotswap version
+
+[IBOM](https://htmlpreview.github.io/?https://github.com/krikun98/skean/blob/main/pcb/6col_hotswap/bom/ibom.html)
+
+[gerbers](../../releases/latest/download/pcb_6col_hotswap_gerbers.zip)
+
+front|back
+--|--
+![front](../../releases/latest/download/pcb_6col_hotswap.png)|![back](../../releases/latest/download/pcb_6col_hotswap_back.png)
+
+#### Soldered
+
+Soldered V0.3 PCBs have compatibility for:
+
+- MX
+- Alps SKCM
+- Alps SKCC
+- i-Rocks
+- Hi-Tek 725
+- Omron B3G-S
+- Futaba MA
 
 Full 7-column PCB
 
