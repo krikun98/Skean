@@ -6,15 +6,18 @@ The Skean is a 44-key split keyboard inspired by the [Jian](https://github.com/K
 [Corne](https://github.com/foostan/crkbd) (thumb cluster).
 The module placement was inspired by [pashutk](https://github.com/pashutk)'s kbd533 project.
 
-The Skean is a fully wireless split built with E73 nRF52833 modules. It's got side-mounted power and reset switches, USB-C ports, fuses and ESD protection. It also has 310 mAh batteries in each half - about three times the capacity of a typical "under the nice!nano" battery. Despite all that, with specific switches (Alps, Matias or Gateron Cap) and thin PCBs it can be built with 8 mm. standoffs - the same thickness as a regular hotswap Corne. You are giving up the hotswap capability, but not much else.
+The Skean is a fully wireless split built with E73 nRF52833 modules. It's got side-mounted power and reset switches, USB-C ports, fuses and ESD protection. It also has 310 mAh batteries in each half - about three times the capacity of a typical "under the nice!nano" battery. Despite all that, with specific switches (Alps, Matias, Gateron Cap or etc.) and thin PCBs it can be built with 8 mm. standoffs - the same thickness as a regular hotswap Corne. You are giving up the hotswap capability, but not much else.
+
+And with the V0.3 hotswap PCB you don't even have to give that up!
+With 301230 batteries between the PCB and plate the Skean can mount regular MX switches while remaining thin and sleek.
 
 ## Features
 
 * Wireless with a built-in E73 module
-* ZMK support (currently via a config repo)
+* ZMK support (currently via a config template)
 * Fuses and ESD protection
 * MX or Alps compatibility
-* Meant for 233350 310 mAh batteries
+* Meant for 233350 310 mAh batteries under the PCB or 301230 between the PCB and plate
 * Math-generated silkscreens on some case/plate versions
 * 6 column version also available for 100x150 PCB promos
 
@@ -31,10 +34,10 @@ The [bootloader](../../releases/latest/download/bootloader.hex) is available in 
 Please refer to the [nrfmicro wiki](https://github.com/joric/nrfmicro/wiki/bootloader) for the flashing instructions.
 It's the same as the nrfmicro_833 bootloader with a modified USB device name.
 
-[Default firmware](../../releases/latest/download/firmware.zip) files are also there, and you can use the [Skean](https://github.com/krikun98/zmk-config/tree/skean) `zmk-config` branch for customisation.
+[Default firmware](../../releases/latest/download/firmware.zip) files are also there, and you can use the [Skean](https://github.com/krikun98/skean-zmk-config) config template for customization.
 
-**IMPORTANT NOTE**: if your Skean was flashed with the bootloader from the 0.2 release, you need to flash the [update UF2](../../releases/firmware/download/bootloader_update.uf2) to use the latest ZMK version. 
-More info is available in the [Releases](https://github.com/krikun98/Skean/releases/tag/firmware) tab.   
+**IMPORTANT NOTE**: if your Skean was flashed with the bootloader from the 0.2 release, you need to flash the [update UF2](../../releases/V0.2.1/download/bootloader_update.uf2) to use the latest ZMK version.
+More info is available in the [Releases](https://github.com/krikun98/Skean/releases/tag/V0.2.1) tab.
 
 ### BOM/Build instructions
 
